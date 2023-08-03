@@ -28,6 +28,29 @@ Add Beam<br>
  create....Pinned<br>
  Create....Pinned<br>
                   Use cursor to Assign
- 
+  ## Step 5 Load And Deflection 
+Load case details....Add  Dead Load, Live LOad <Br>
+Dead lOAD......ADD....selfweight<br>
+Live load ....ADD.....member load .....Concentrated Force ......-10 KN for this question <br>
+d1=1,d2=0  <br>
+Add,close<br>
+live load ......uniform force.....-2 for this question<br>
+live load ......linearly varying ........W3  -5kN for this question <br>
+Self weight...Assign to view....assign...<BR>
+Load case details ...ADD...DEfine combine....default ...1.5 <br>
+>>add,close<br>
+ ## step 6  Design
+ concrete <br>
+ Current code....is 456<BR>
+select Parameter <br>
+FY<br>
+FYMAIN<br>
+FYSEC<br>
+MAXMAIN<br>
+MAXSEC<br>
+MINIMAIN<br>
+TRACK<br>
+assign to view <br>
+
  
  
